@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Restaurant Fictif</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  
+  <!-- En-tête -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Dabali</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">À propos de nous</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Section Héros -->
+  <section class="hero-section">
+    <div class="container">
+      <h1>Découvrez nos plats délicieux</h1>
+      <a href="#" class="btn btn-primary">Voir le menu</a>
+    </div>
+  </section>
+
+  <!-- Section des menus -->
+  <section class="menu-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 menu-item">
+          <img src="imgaes/photo1.jpg" class="img-fluid" alt="Garba">
+          <h3>Super Garba</h3>
+          <p>Attiecké poisson</p>
+          <p>Prix : 500 FCFA</p>
+        </div>
+        <div class="col-md-4 menu-item">
+          <img src="imgaes/sauce graine.jpg" class="img-fluid" alt="Plat 2">
+          <h3>Plat 2</h3>
+          <p>Foutou à la sauce graine</p>
+          <p>Prix : 1000</p>
+        </div>
+        <div class="col-md-4 menu-item">
+          <img src="imgaes/Tchep.jpg" class="img-fluid" alt="Plat 3">
+          <h3>Plat 3</h3>
+          <p> du riz gras avec du poisson</p>
+          <p>Prix : 1500</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section À propos de nous -->
+  <section class="about-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="imgaes/restaurant.jpeg" class="img-fluid" alt="Restaurant" width="300px" height="600px">
+        </div>
+        <div class="col-md-6">
+          <h2>À propos de nous</h2>
+          <p>Nous sommes un restaurant ivoirien qui est spécialisé dans la vente de repas locaux.</p>
+          <p> Notre restaurant est le meilleur de toute la ville d'abidjan </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Contacts -->
+  <section class="contact-section">
+    <div class="container">
+      <h2>Contactez-nous</h2>
+      <form>
+        <div class="form-group">
+          <label for="name">Nom</label>
+          <input type="text" class="form-control" id="name" placeholder="Votre nom">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Votre email">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea class="form-control" id="message" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Envoyer</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Pied de page -->
+  <footer class="footer-section">
+    <div class="container">
+      <p>&copy; 2024 Dabali. Tous droits réservés.</p>
+      <ul class="list-inline">
+        <li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+        <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+        <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+ /* Styles personnalisés */
+ .hero-section {
+    height: 500px;
+    background-image: url('imgaes/restaurant.jpeg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+  }
+  .menu-item {
+    margin-bottom: 10%;
+  }
+ 
+ 
